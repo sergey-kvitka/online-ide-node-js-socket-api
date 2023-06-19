@@ -4,7 +4,7 @@ const {Schema, model} = require('mongoose');
 
 const Document = ({
     _id: String,
-    data: Object
+    data: String
 });
 
 module.exports = model('Document', Document);
